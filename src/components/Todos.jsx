@@ -83,12 +83,12 @@ console.log(state);
             {/* {todo.length > 0 && todo.map((todos)=>{
                 <li key={todos.id}>{todos.title}</li>
             })} */}
-           {reducerTodo.length>0 && reducerTodo.map((todo)=>{
-            return(
-                <StyledTodo key={todo.id}>{todo.title}</StyledTodo>
-            )
+           {reducerTodo.length>0 && reducerTodo.map((todo)=>(
             
-           })}
+                <StyledTodo key={todo.id}>{todo.title}</StyledTodo>
+        
+            
+           ))}
         </ul>
 
     </div>
